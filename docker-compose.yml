@@ -6,3 +6,8 @@ services:
       - "8080:80"
     volumes:
       - ./code:/code
+      - ./.data:/data
+    links:
+      - php
+  php:
+    image: php:7-fpm
