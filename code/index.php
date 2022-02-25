@@ -250,4 +250,20 @@ function ravno(int $a, int $b): bool
 }
 
 
+$r = 88;
+if ($r < 10 or $r > 99)
+	echo "Число не в диапазонe .<br>";
+else
+{
+	$s = 0;
+	while ($r > 0)
+	{
+	$s += $r % 10;
+	$r /= 10;
+	}
+	if ($s < 10)
+	echo "Сумма цифр однозначна .<br>";
+ 	else
+ 	echo "Сумма цифр двузначна .<br>";
+}
 	
