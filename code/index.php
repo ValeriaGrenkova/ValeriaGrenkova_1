@@ -186,5 +186,17 @@ for ($i = 1; $i < 11; $i++)
 }
 print_r($arr6);
 
-
-
+function  arrayFill($m, int $n)
+{
+	$arr7 = [];
+	for ($i = 1; $i <= $n; $i++)
+		{
+		$arr7[$i - 1] = '';
+		for ($j = 0; $j < $i; $j++)
+			$arr6[$i - 1] .= $m;
+	}
+	return $arr7;
+}
+		
+echo "<br>";
+print_r(arrayFill('x',5));
