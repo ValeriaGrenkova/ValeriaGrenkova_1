@@ -290,11 +290,10 @@ $s_ch = array_sum($arr14)
 echo $s_ch."<br>";
 
 $arr15 = [9,23,7,14,6,98,3,8,17];
-
 function kvadrat(int $v)
 {
-    $v = sqrt($v);
+	$v = sqrt($v);
 }
-
 $sqrt_arr = $arr15;
 array_walk($sqrt_arr, "kvadrat");
+
