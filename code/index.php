@@ -175,3 +175,16 @@ function summa_chisel ($h, $summa = 0)
 	else return;
 }
 echo summa_chisel ($h) ."<br>";
+
+//№17
+$arr6 = [];
+for ($i = 1; $i < 11; $i++)
+{
+	$arr6[$i - 1] = '';
+	for ($j = 0; $j < $i; $j++)
+		$arr6[$i - 1] .= 'x'
+}
+print_r($arr6);
+
+
+
