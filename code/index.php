@@ -226,3 +226,5 @@ $result = $arr10[0] * $arr10[1] + $arr10[2] * $arr10[3];
 echo $result;
 echo "<br>";
 
+$user = ['name' => 'Valeria', 'surname' => 'Grenkova', 'patronymic' => 'Dmitrievna'];
+echo $user['surname'], " ", $user['name'], " ", $user['patronymic'];
