@@ -115,3 +115,14 @@ foreach (&arr4 as $k) {
 		break;
 	}
 }
+
+
+//№15
+function printStringReturnNumber()
+{
+	echo "<br> Number";
+	return 888;
+}
+echo "<br>". $my_num = printStringReturnNumber();
+
+
