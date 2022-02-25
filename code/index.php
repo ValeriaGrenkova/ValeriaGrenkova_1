@@ -208,3 +208,14 @@ for ($i = 0; $i < count($arr8); $i++)
 	$p += array_sum($arr8[$i]);
 }
 echo $p;
+
+$arr9 = array();
+for($i = 0; $i < 3; $i++)
+{
+	$b = [];
+	for($j = 0; $j < 3; $j++)
+	{
+		array_push($b, $i * 3 + $j + 1);
+	}
+	array_push($arr9, $b);
+}
