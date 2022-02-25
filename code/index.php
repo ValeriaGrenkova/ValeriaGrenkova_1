@@ -270,3 +270,12 @@ else
 $arr12 = [888, 88, 8];
 if (count($arr12) == 3)
 	echo array_sum($arr12)."<br>";
+
+//№19
+for ($i = 1; $i <= 20; $i++) 
+{
+	for ($j = 1; $j <= $i; $j++)
+		echo "x";
+	echo "<br>";
+}
+echo "<br>";
