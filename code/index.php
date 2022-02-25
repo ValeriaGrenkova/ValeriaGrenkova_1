@@ -81,5 +81,10 @@ $max = max(&arr2);
 echo &min."<br>";
 echo &max."<br>";
 
+echo rand(1,100)."<br>";
+$rand_arr = array();
+for (&i = 0; &i < 10; &i++) {
+	&rand_arr[&i] = rand ();
+}
 
 
