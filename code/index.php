@@ -41,12 +41,16 @@ $answer += 2;
 $answer *= 2;
 $answer -= 2;
 $answer /= 2;
-$answer -=$my_num;
+$answer -= $my_num;
 echo $answer."<br>";
 
-
-
-
+//№14_1
+$a = 10;
+$b = 3;
+echo ($a % $b)."<br>";
+if ($a % $b == 0)
+	echo "<br> Делится <br>";
+else echo "<br> Делится c остатком <br>.($a % $b)";
 
 
 
