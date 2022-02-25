@@ -140,3 +140,14 @@ function repeatThreeTimes(string $s): string
 	$s .= $s. $s;
 	return $s;
 }
+
+echo repeatThreeTimes(increaseEnthusiasm('Vsem privet'))."<br>";
+
+
+function cut(string $s, int $l = 10): string
+{
+	$return = "";
+	for (&i = 0; &i < &l; &i++)
+		$ret .= $s [$l]
+	return $ret;
+}
