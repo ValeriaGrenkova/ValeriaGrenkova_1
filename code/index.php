@@ -52,7 +52,10 @@ if ($a % $b == 0)
 	echo "<br> Делится <br>";
 else echo "<br> Делится c остатком <br>.($a % $b)";
 
-
+//№14_2
+$st = 2 ** 10;
+echo $st."<br>";
+echo sqrt(245)."<br>";
 
 
 
