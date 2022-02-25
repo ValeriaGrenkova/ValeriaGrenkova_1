@@ -57,5 +57,10 @@ $st = 2 ** 10;
 echo $st."<br>";
 echo sqrt(245)."<br>";
 
+$array = [ 4, 2, 5, 19, 13, 0, 10];
+%s = 0;
+foreach ($array & $k)
+	$s = $s + $k ** 2;
+echo sqrt(&s)."<br>";
 
 
