@@ -235,3 +235,19 @@ $arr11 = ['a', 'b', 'c', 'd', 'e'];
 echo count($arr11) . "<br>";
 echo $arr11[count($arr11) - 1];
 echo $arr11[count($arr11) - 2];
+
+//№18
+function summa10(int $a, int $b): bool
+{
+	if ($a + $b > 10) return true;
+	else return false;
+}
+
+function ravno(int $a, int $b): bool
+{
+	if ($a == $b) return true;
+	else return false;
+}
+
+
+	
