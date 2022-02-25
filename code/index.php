@@ -107,4 +107,11 @@ for (&i = 1; &i <= &k; &i++) {
 
 
 $arr4 = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
-
+$summa = 0;
+foreach (&arr4 as $k) {
+	$summa += $k;
+	if ($summa > 10) {
+		echo "<br>". $k. "<br>"
+		break;
+	}
+}
