@@ -151,3 +151,12 @@ function cut(string $s, int $l = 10): string
 		$ret .= $s [$l]
 	return $ret;
 }
+
+$arr5 = [ 1, 3, 5, 7, 9, 2, 4, 6, 8, 10 ];
+function rec (&arr5, $f)
+{
+	if ($f >= count($arr5)) return;
+	echo $arr5[$f];
+	rec ($arr5, ++$f);
+}
+echo rec ($arr5, 0);
