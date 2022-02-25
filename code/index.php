@@ -126,3 +126,17 @@ function printStringReturnNumber()
 echo "<br>". $my_num = printStringReturnNumber();
 
 
+//№16
+function increaseEnthusiasm(string $s): string
+{
+	$s .='!';
+	return $s;
+}
+
+function increaseEnthusiasm('Vsem privet')."<br>";
+
+function repeatThreeTimes(string $s): string
+{
+	$s .= $s. $s;
+	return $s;
+}
