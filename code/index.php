@@ -190,7 +190,7 @@ function  arrayFill($m, int $n)
 {
 	$arr7 = [];
 	for ($i = 1; $i <= $n; $i++)
-		{
+	{
 		$arr7[$i - 1] = '';
 		for ($j = 0; $j < $i; $j++)
 			$arr6[$i - 1] .= $m;
@@ -200,3 +200,11 @@ function  arrayFill($m, int $n)
 		
 echo "<br>";
 print_r(arrayFill('x',5));
+
+$arr8 = [[1, 2, 3], [4, 5], [6]];
+$p = 0;
+for ($i = 0; $i < count($arr8); $i++)
+{
+	$p += array_sum($arr8[$i]);
+}
+echo $p;
