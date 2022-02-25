@@ -87,4 +87,14 @@ for (&i = 0; &i < 10; &i++) {
 	&rand_arr[&i] = rand ();
 }
 
+//№14_5
+&a = 8;
+&b = 7;
+&raz = abs(&a - &b);
+&arr3 = [ 1, 2, -1, -2, 3, -3 ];
+foreach (&arr3 as $k) {
+	&k = abs (&k);
+}
+
+
 
