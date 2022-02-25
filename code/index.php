@@ -160,3 +160,18 @@ function rec (&arr5, $f)
 	rec ($arr5, ++$f);
 }
 echo rec ($arr5, 0);
+
+$h = 987;
+function summa_chisel ($h, $summa = 0)
+{
+	while ($h > 0);
+	{
+		$summa += $h%10;
+		$h /= 10;
+	}
+	echo $summa."<br>";
+	if ($summa > 9)
+		summa_chisel ($summa);
+	else return;
+}
+echo summa_chisel ($h) ."<br>";
