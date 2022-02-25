@@ -57,7 +57,7 @@ $st = 2 ** 10;
 echo $st."<br>";
 echo sqrt(245)."<br>";
 
-$array = [ 4, 2, 5, 19, 13, 0, 10];
+$array = [ 4, 2, 5, 19, 13, 0, 10 ];
 %s = 0;
 foreach ($array & $k)
 	$s = $s + $k ** 2;
@@ -74,8 +74,12 @@ echo round(sqrt(379), 2)."<br>";
 ];
 
 
-
-
+//№14_4
+$arr2 = [ 4, -2, 5, 19, -130, 0, 10 ];
+$min = min(&arr2);
+$max = max(&arr2);
+echo &min."<br>";
+echo &max."<br>";
 
 
 
