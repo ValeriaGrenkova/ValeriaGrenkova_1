@@ -69,6 +69,11 @@ echo round(sqrt(379), 0)."<br>";
 echo round(sqrt(379), 1)."<br>";
 echo round(sqrt(379), 2)."<br>";
 &arr1 = [
+	"floor" => floor(sqrt(587)),
+	"ceil" => ceil(sqrt(587))
+];
+
+
 
 
 
