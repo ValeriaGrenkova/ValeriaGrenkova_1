@@ -228,3 +228,10 @@ echo "<br>";
 
 $user = ['name' => 'Valeria', 'surname' => 'Grenkova', 'patronymic' => 'Dmitrievna'];
 echo $user['surname'], " ", $user['name'], " ", $user['patronymic'];
+$date = ['year' => 2022, 'month' => '02', 'day' => '25'];
+echo $date['year'], "-", $date['month'], "-", $date['day'];
+
+$arr11 = ['a', 'b', 'c', 'd', 'e'];
+echo count($arr11) . "<br>";
+echo $arr11[count($arr11) - 1];
+echo $arr11[count($arr11) - 2];
