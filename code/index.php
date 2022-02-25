@@ -279,3 +279,12 @@ for ($i = 1; $i <= 20; $i++)
 	echo "<br>";
 }
 echo "<br>";
+
+//№20
+$arr13 = [8, 2, 6, 79, 3, 5, 7];
+$sred = array_sum($arr13)/count($arr13)
+echo $sred."<br>";
+
+$arr14 = range(1, 100, 1);
+$s_ch = array_sum($arr14)
+echo $s_ch."<br>";
