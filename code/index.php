@@ -282,11 +282,11 @@ echo "<br>";
 
 //№20
 $arr13 = [8, 2, 6, 79, 3, 5, 7];
-$sred = array_sum($arr13)/count($arr13)
+$sred = array_sum($arr13)/count($arr13);
 echo $sred."<br>";
 
 $arr14 = range(1, 100, 1);
-$s_ch = array_sum($arr14)
+$s_ch = array_sum($arr14);
 echo $s_ch."<br>";
 
 $arr15 = [9,23,7,14,6,98,3,8,17];
@@ -297,3 +297,14 @@ function kvadrat(int $v)
 $sqrt_arr = $arr15;
 array_walk($sqrt_arr, "kvadrat");
 
+$tsifry = range(1, 26);
+$keys = range('a', 'z');
+$arr16 = array_combine($keys, $tsifry);
+echo "<br>";
+print_r($arr16);
+echo "<br>";
+
+$stroka = '1234567890';
+$arr17 = str_split($stroka, 2);
+$res = array_sum($arr17);
+echo $res. "<br>";
