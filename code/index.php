@@ -267,3 +267,6 @@ else
  	echo "Сумма цифр двузначна .<br>";
 }
 	
+$arr12 = [888, 88, 8];
+if (count($arr12) == 3)
+	echo array_sum($arr12)."<br>";
