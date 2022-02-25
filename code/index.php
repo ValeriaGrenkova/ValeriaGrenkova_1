@@ -219,3 +219,10 @@ for($i = 0; $i < 3; $i++)
 	}
 	array_push($arr9, $b);
 }
+echo "<br>";
+
+$arr10 = [2, 5, 3, 9];
+$result = $arr10[0] * $arr10[1] + $arr10[2] * $arr10[3];
+echo $result;
+echo "<br>";
+
