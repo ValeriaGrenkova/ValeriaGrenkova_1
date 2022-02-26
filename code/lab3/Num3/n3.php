@@ -8,7 +8,7 @@ if('POST' === $_SERVER['REQUEST_METHOD'])
 
 function k($Покупка,$Шары) 
 {
-   $file = fopen("./Категории/$Покупка/$Шары", 'w+');
+   $file = fopen("./category/$Покупка/$Шары", 'w+');
    $text = "Клиент: " . $_POST['E-mail'] . "  ";
 
    fwrite($file,$text);
